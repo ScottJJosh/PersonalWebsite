@@ -1,0 +1,13 @@
+
+.ProjectsPage{
+    display: flex;
+    justify-content: center;
+}
+
+
+.ProjectButtonsContainer {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    width: 70%;
+}

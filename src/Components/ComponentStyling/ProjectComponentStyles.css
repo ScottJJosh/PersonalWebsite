@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 15rem;
+    height: 15rem;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    padding: 15px;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.projectContainer:hover {
+    margin:0px;
+    width: 20rem;
+    height: 20rem;
+}
+.projectTitle {
+    font-size: 20px;
+}
+
+.projectDescription {
+    font-size: 15px;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.projectImage {
+    border-radius: 10px;
+    justify-content: center;
+    width:10rem;
+    height: 11rem;
+}
+

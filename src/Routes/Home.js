@@ -1,8 +1,10 @@
 import React from "react";
+import './PageStyling/HomeStyles.css';
+
 
 function Home() {
     return(
-        <div>Welcome to the Home</div>
+        <div className="background">Welcome to the Home</div>
     );
 }
 
