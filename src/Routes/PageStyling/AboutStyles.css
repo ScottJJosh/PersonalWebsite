@@ -1,3 +1,4 @@
 .portrait {
-    max-width: 50%;
+    width: 20rem;
+    border-radius: 50px;
 }

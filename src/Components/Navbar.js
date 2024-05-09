@@ -4,10 +4,9 @@ import  './ComponentStyling/Navbar.css'
 
 function Navbar() {
     return(
-        <>
-            
-            <ul className="NavbarContainer">
-                <GiAstronautHelmet className="NavbarLogo" />
+        <div className="NavbarContainer">
+            <GiAstronautHelmet className="NavbarLogo" />
+            <ul className="NavbarButtonContainer">
                 <li className="NavbarButton">
                     <a href="/">Home</a>
                 </li>
@@ -24,7 +23,8 @@ function Navbar() {
                     <a href="/About">About</a>
                 </li>
             </ul>
-        </>
+            <div className="Contact">Contact</div>
+        </div>
     );
 }
 

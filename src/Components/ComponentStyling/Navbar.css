@@ -1,27 +1,43 @@
 .NavbarContainer {
     display: flex;
+    justify-content: space-between;
+}
+
+.NavbarButtonContainer {
+    display: flex;
     align-items: center;
+    justify-content: right;
     text-decoration: none;
     list-style-type: none;
     margin: 0;
-    padding: 20px;
-    background-color: rgb(192, 192, 192);
+    padding: 0;
+    background-color: #f2f2f2;
 }
 .NavbarButton {
-    margin-right: 20px;
+    margin: 30px;
+    align-items: center;
 }
 .NavbarButton a {
     text-decoration: none;
-    color: #fff;
+    color: black;
     font-size: 18px;
     transition: color 0.3s ease;
 }
 
 .NavbarButton a:hover {
-    color: grey;
+    color: #d6d6d6;
 }
 
 .NavbarLogo {
+    margin-top: 15px;
+    justify-content: center;
     font-size: 45px;
-    margin-right: 20px;
+}
+
+.Contact {
+    margin: 25px;
+    padding: 5px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: black;
 }
