@@ -1,0 +1,27 @@
+.NavbarContainer {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(192, 192, 192);
+}
+.NavbarButton {
+    margin-right: 20px;
+}
+.NavbarButton a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.NavbarButton a:hover {
+    color: grey;
+}
+
+.NavbarLogo {
+    font-size: 45px;
+    margin-right: 20px;
+}
