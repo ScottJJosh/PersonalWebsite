@@ -23,7 +23,7 @@ function Navbar() {
                     <a href="/About">About</a>
                 </li>
             </ul>
-            <div className="Contact">Contact</div>
+            <div className="Contact">Contact Me</div>
         </div>
     );
 }
