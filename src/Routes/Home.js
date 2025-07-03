@@ -3,6 +3,8 @@ import './PageStyling/HomeStyles.css';
 import {ReactTyped} from 'react-typed';
 import ProjectComponent from "../Components/projectComponent";
 import selfPortrait from "../Images/IMG_2202.JPG";
+import Footer from "../Components/Footer";
+
 function Home() {
     return(
         <div className="scroll-container">
@@ -41,9 +43,7 @@ function Home() {
                     Check out my interests
                 </div>
             </div>
-            <div className="Footer">
-                This is the working footer
-            </div>
+            <Footer />
         </div>
     );
 }

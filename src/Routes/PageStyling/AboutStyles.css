@@ -2,7 +2,61 @@
     font-family: 'Open Sans';
 }
 
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 2rem auto;
+    max-width: 700px;
+    padding: 2rem 1rem;
+}
+
 .portrait {
-    width: 20rem;
-    border-radius: 50px;
+    width: 180px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.about-text {
+    max-width: 500px;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin: 0 auto;
+}
+
+@media (min-width: 700px) {
+    .about-container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2.5rem;
+    }
+    .portrait {
+        margin-bottom: 0;
+    }
+    .about-text {
+        max-width: 400px;
+    }
+}
+
+.resume-date {
+    float: right;
+    font-size: 0.95em;
+    color: #555;
+    font-weight: normal;
+    margin-left: 1em;
+}
+.resume-section ul ul {
+    margin-top: 0.3em;
+    margin-bottom: 0.7em;
+    padding-left: 1.2em;
+}
+.resume-section ul {
+    list-style-type: disc;
+    margin-left: 1.2em;
 }
